@@ -86,7 +86,7 @@ At the core of a Transformer model lies the so-called self-attention mechanism t
 <td markdown="span">![909_front_24](testdata_24bars_modelC/test_909_front24.jpg)</td>
 </tbody>
 </table>
-
+<!-- 
 |#id| First 24 bars | Melody Embedding Distance|
 | ------ | -------- | -------- | 
 |875| ![875_front_24](testdata_24bars_modelC/test_875_front24.jpg) | ![875_front_24](testdata_24bars_modelC/test_875_front24.jpg) | 
@@ -100,7 +100,7 @@ At the core of a Transformer model lies the so-called self-attention mechanism t
 |901| ![901_front_24](testdata_24bars_modelC/test_901_front24.jpg) | ![901_front_24](testdata_24bars_modelC/test_901_front24.jpg) | 
 |904| ![904_front_24](testdata_24bars_modelC/test_904_front24.jpg) | ![904_front_24](testdata_24bars_modelC/test_904_front24.jpg) | 
 |908| ![908_front_24](testdata_24bars_modelC/test_908_front24.jpg) | ![908_front_24](testdata_24bars_modelC/test_908_front24.jpg) | 
-|909| ![909_front_24](testdata_24bars_modelC/test_909_front24.jpg) | ![909_front_24](testdata_24bars_modelC/test_909_front24.jpg) | 
+|909| ![909_front_24](testdata_24bars_modelC/test_909_front24.jpg) | ![909_front_24](testdata_24bars_modelC/test_909_front24.jpg) |  -->
 
 ### Markdown
 
