@@ -1,3 +1,4 @@
+## Theme Transformer: Symbolic Music Generation with Theme-Conditioned Transformer
 ## Abstract
 <!-- Theme Transformer: Symbolic Music Generation with Theme-Conditioned Transformer -->
 
@@ -86,6 +87,7 @@ At the core of a Transformer model lies the so-called self-attention mechanism t
 <td markdown="span">![909_front_24](testdata_24bars_modelC/test_909_front24.jpg)</td>
 </tbody>
 </table>
+
 <!-- 
 |#id| First 24 bars | Melody Embedding Distance|
 | ------ | -------- | -------- | 
