@@ -15,3 +15,4 @@ This theme has instead all you need to start today blogging with Jekyll, and no 
 Have a look at the Github page for more information.
 
 You find this descriptive text in the `index.md` file, so you can change it, or remove it completely, according to your needs.d
+
