@@ -99,7 +99,7 @@ At the core of a Transformer model lies the so-called self-attention mechanism t
 <tr>
 <td markdown="span">**908**</td>
 <td markdown="span">![908_front_24](testdata_24bars_modelC/test_908_front24.jpg)</td>
-<td markdown="span">![908_front_24](testdata_24bars_modelC/test_908_front24.jpg)</td>
+<td markdown="span">![908_front_24](melEmb_dist/plot_908.jpg)</td>
 </tr>
 <tr>
 <td markdown="span">**909**</td>
