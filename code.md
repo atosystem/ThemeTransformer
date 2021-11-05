@@ -1,13 +1,12 @@
 ---
 layout: page
 title: Code
-tagline: Create a contact form and you are good to go
+tagline: Instruction for training and inferencing theme transformer.
 ref: code
 ---
 
-# Theme Transformer
+# Code for Theme Transformer
 
-This is the official implementation of Theme Transformer.
 
 ## Environment: 
 * using python version 3.6.8
