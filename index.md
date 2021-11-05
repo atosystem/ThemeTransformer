@@ -35,16 +35,16 @@ At the core of a Transformer model lies the so-called self-attention mechanism t
 
 <table>
 <colgroup>
-<col width="10%" />
-<col width="45%" />
-<col width="45%" />
+    <col width="10%" />
+    <col width="45%" />
+    <col width="45%" />
 </colgroup>
 <thead>
-<tr class="header">
-<th>id</th>
-<th>First 24 bars</th>
-<th>Melody Embedding Distance</th>
-</tr>
+    <tr class="header">
+    <th>id</th>
+    <th>First 24 bars</th>
+    <th>Melody Embedding Distance</th>
+    </tr>
 </thead>
 <tbody>
 <tr>
@@ -95,7 +95,5 @@ At the core of a Transformer model lies the so-called self-attention mechanism t
 <tr>
 <td markdown="span">**909**</td>
 <td markdown="span">![909_front_24](testdata_24bars_modelC/test_909_front24.jpg)</td>
-<td markdown="span">![909_front_24](testdata_24bars_modelC/test_909_front24.jpg)</td>
-</tbody>
-</table>
+<td markdown="span">![909_front_24](testdata_24bars_modelC/test_909_front24.jpg)</td></tbody></table>
 
