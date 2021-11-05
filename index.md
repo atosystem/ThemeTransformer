@@ -34,9 +34,9 @@ At the core of a Transformer model lies the so-called self-attention mechanism t
 
 <table>
 <colgroup>
-    <col width="10%" />
-    <col width="45%" />
-    <col width="45%" />
+    <col width="5%" />
+    <col width="47.5%" />
+    <col width="47.5%" />
 </colgroup>
 <thead>
     <tr class="header">
@@ -84,7 +84,7 @@ At the core of a Transformer model lies the so-called self-attention mechanism t
 <tr>
 <td markdown="span">**900**</td>
 <td markdown="span">![900_front_24](testdata_24bars_modelC/test_900_front24.jpg)</td>
-<td markdown="span">![900_front_24]melEmb_dist/plot__904.jpg)</td>
+<td markdown="span">![900_front_24](melEmb_dist/plot_900.jpg)</td>
 </tr>
 <tr>
 <td markdown="span">**901**</td>
