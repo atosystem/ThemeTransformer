@@ -96,3 +96,4 @@ At the core of a Transformer model lies the so-called self-attention mechanism t
 <td markdown="span">![909_front_24](testdata_24bars_modelC/test_909_front24.jpg)</td>
 <td markdown="span">![909_front_24](testdata_24bars_modelC/test_909_front24.jpg)</td></tbody></table>
 
+## Citation
