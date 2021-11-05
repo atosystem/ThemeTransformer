@@ -1,6 +1,6 @@
 title: Theme Transformer
 description: The official implementation of Theme Transformer
-show_downloads: true
+show_downloads: false
 
 baseurl: "/ThemeTransformer" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
 url: "https://atosystem.github.io" # change this to the base hostname & protocol for your site
@@ -27,4 +27,4 @@ plugins:
 target-blank:
     rel: nofollow
 
-header_page_refs: ['now', 'about', 'contact']
+header_page_refs: ['demo', 'code', 'contact']
