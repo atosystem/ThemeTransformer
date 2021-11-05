@@ -1,4 +1,9 @@
 # Theme Transformer
+<p>
+    <a href=""><img alt="STAR" src="https://img.shields.io/github/stars/atosystem/ThemeTransformer"/> </a>
+    <a href="https://github.com/atosystem/ThemeTransformer/issues"><img alt="ISSUE" src="https://img.shields.io/github/issues/atosystem/ThemeTransformer" /></a>
+    <a href="https://github.com/atosystem/ThemeTransformer/pulls"><img alt="PR" src="https://img.shields.io/github/issues-pr/atosystem/ThemeTransformer" /></a>
+</p>
 
 This is the official implementation of Theme Transformer.
 
