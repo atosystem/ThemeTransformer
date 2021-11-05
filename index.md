@@ -11,33 +11,153 @@ Your browser does not support the audio element.
 
 | ID| Theme | Real Data | Baseline | Theme Transformer
 | -- | -------- | -------- | -------- | -------- |
-| 875 | `audio: /theme-transformer-audio/875_Theme.mp3` | `audio: /theme-transformer-audio/875_Realdata.mp3` | `audio: /theme-transformer-audio/875_Baseline.mp3` | `audio: /theme-transformer-audio/875_ThemeTransformer.mp3`|
-| 888 | `audio: /theme-transformer-audio/888_Theme.mp3` | `audio: /theme-transformer-audio/888_Realdata.mp3` | `audio: /theme-transformer-audio/888_Baseline.mp3` | `audio: /theme-transformer-audio/888_ThemeTransformer.mp3`|
-| 890 | `audio: /theme-transformer-audio/890_Theme.mp3` | `audio: /theme-transformer-audio/890_Realdata.mp3` | `audio: /theme-transformer-audio/890_Baseline.mp3` | `audio: /theme-transformer-audio/890_ThemeTransformer.mp3`|
-| 893 | `audio: /theme-transformer-audio/893_Theme.mp3` | `audio: /theme-transformer-audio/893_Realdata.mp3` | `audio: /theme-transformer-audio/893_Baseline.mp3` | `audio: /theme-transformer-audio/893_ThemeTransformer.mp3`|
-| 899 | `audio: /theme-transformer-audio/899_Theme.mp3` | `audio: /theme-transformer-audio/899_Realdata.mp3` | `audio: /theme-transformer-audio/899_Baseline.mp3` | `audio: /theme-transformer-audio/899_ThemeTransformer.mp3`|
-| 900 | `audio: /theme-transformer-audio/900_Theme.mp3` | `audio: /theme-transformer-audio/900_Realdata.mp3` | `audio: /theme-transformer-audio/900_Baseline.mp3` | `audio: /theme-transformer-audio/900_ThemeTransformer.mp3`|
-| 901 | `audio: /theme-transformer-audio/901_Theme.mp3` | `audio: /theme-transformer-audio/901_Realdata.mp3` | `audio: /theme-transformer-audio/901_Baseline.mp3` | `audio: /theme-transformer-audio/901_ThemeTransformer.mp3`|
-| 904 | `audio: /theme-transformer-audio/904_Theme.mp3` | `audio: /theme-transformer-audio/904_Realdata.mp3` | `audio: /theme-transformer-audio/904_Baseline.mp3` | `audio: /theme-transformer-audio/904_ThemeTransformer.mp3`|
-| 908 | `audio: /theme-transformer-audio/908_Theme.mp3` | `audio: /theme-transformer-audio/908_Realdata.mp3` | `audio: /theme-transformer-audio/908_Baseline.mp3` | `audio: /theme-transformer-audio/908_ThemeTransformer.mp3`|
-| 909 | `audio: /theme-transformer-audio/909_Theme.mp3` | `audio: /theme-transformer-audio/909_Realdata.mp3` | `audio: /theme-transformer-audio/909_Baseline.mp3` | `audio: /theme-transformer-audio/909_ThemeTransformer.mp3`|
+| 875 | <audio controls>
+  <source src="theme-transformer-audio/875_Theme.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio> | <audio controls>
+  <source src="theme-transformer-audio/875_Realdata.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio> | <audio controls>
+  <source src="theme-transformer-audio/875_Baseline.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio> | <audio controls>
+  <source src="theme-transformer-audio/875_ThemeTransformer.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio>|
+| 888 | <audio controls>
+  <source src="theme-transformer-audio/888_Theme.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio> | <audio controls>
+  <source src="theme-transformer-audio/888_Realdata.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio> | <audio controls>
+  <source src="theme-transformer-audio/888_Baseline.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio> | <audio controls>
+  <source src="theme-transformer-audio/888_ThemeTransformer.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio>|
+| 890 | <audio controls>
+  <source src="theme-transformer-audio/890_Theme.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio> | <audio controls>
+  <source src="theme-transformer-audio/890_Realdata.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio> | <audio controls>
+  <source src="theme-transformer-audio/890_Baseline.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio> | <audio controls>
+  <source src="theme-transformer-audio/890_ThemeTransformer.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio>|
+| 893 | <audio controls>
+  <source src="theme-transformer-audio/893_Theme.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio> | <audio controls>
+  <source src="theme-transformer-audio/893_Realdata.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio> | <audio controls>
+  <source src="theme-transformer-audio/893_Baseline.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio> | <audio controls>
+  <source src="theme-transformer-audio/893_ThemeTransformer.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio>|
+| 899 | <audio controls>
+  <source src="theme-transformer-audio/899_Theme.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio> | <audio controls>
+  <source src="theme-transformer-audio/899_Realdata.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio> | <audio controls>
+  <source src="theme-transformer-audio/899_Baseline.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio> | <audio controls>
+  <source src="theme-transformer-audio/899_ThemeTransformer.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio>|
+| 900 | <audio controls>
+  <source src="theme-transformer-audio/900_Theme.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio> | <audio controls>
+  <source src="theme-transformer-audio/900_Realdata.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio> | <audio controls>
+  <source src="theme-transformer-audio/900_Baseline.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio> | <audio controls>
+  <source src="theme-transformer-audio/900_ThemeTransformer.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio>|
+| 901 | <audio controls>
+  <source src="theme-transformer-audio/901_Theme.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio> | <audio controls>
+  <source src="theme-transformer-audio/901_Realdata.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio> | <audio controls>
+  <source src="theme-transformer-audio/901_Baseline.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio> | <audio controls>
+  <source src="theme-transformer-audio/901_ThemeTransformer.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio>|
+| 904 | <audio controls>
+  <source src="theme-transformer-audio/904_Theme.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio> | <audio controls>
+  <source src="theme-transformer-audio/904_Realdata.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio> | <audio controls>
+  <source src="theme-transformer-audio/904_Baseline.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio> | <audio controls>
+  <source src="theme-transformer-audio/904_ThemeTransformer.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio>|
+| 908 | <audio controls>
+  <source src="theme-transformer-audio/908_Theme.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio> | <audio controls>
+  <source src="theme-transformer-audio/908_Realdata.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio> | <audio controls>
+  <source src="theme-transformer-audio/908_Baseline.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio> | <audio controls>
+  <source src="theme-transformer-audio/908_ThemeTransformer.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio>|
+| 909 | <audio controls>
+  <source src="theme-transformer-audio/909_Theme.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio> | <audio controls>
+  <source src="theme-transformer-audio/909_Realdata.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio> | <audio controls>
+  <source src="theme-transformer-audio/909_Baseline.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio> | <audio controls>
+  <source src="theme-transformer-audio/909_ThemeTransformer.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio>|
 
 
 ## Figures
-|#id| First 24 bars  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   | Melody Embedding Distance|
+|#id| First 24 bars | Melody Embedding Distance|
 | ------ | -------- | -------- | 
-|875| ![875_front_24](testdata_24bars_modelC/test_875_front24.jpg) |     | 
-|888| ![888_front_24](testdata_24bars_modelC/test_888_front24.jpg) |     | 
-|890| ![890_front_24](testdata_24bars_modelC/test_890_front24.jpg) |     | 
-|893| ![893_front_24](testdata_24bars_modelC/test_893_front24.jpg) |     | 
-|894| ![894_front_24](testdata_24bars_modelC/test_894_front24.jpg) |     | 
-|896| ![896_front_24](testdata_24bars_modelC/test_896_front24.jpg) |     | 
-|899| ![899_front_24](testdata_24bars_modelC/test_899_front24.jpg) |     | 
-|900| ![900_front_24](testdata_24bars_modelC/test_900_front24.jpg) |  | 
-|901| ![901_front_24](testdata_24bars_modelC/test_901_front24.jpg) |     | 
-|904| ![904_front_24](testdata_24bars_modelC/test_904_front24.jpg) |     | 
-|908| ![908_front_24](testdata_24bars_modelC/test_908_front24.jpg) |     | 
-|909| ![909_front_24](testdata_24bars_modelC/test_909_front24.jpg) |     | 
+|875| ![875_front_24](testdata_24bars_modelC/test_875_front24.jpg) | ![875_front_24](testdata_24bars_modelC/test_875_front24.jpg) | 
+|888| ![888_front_24](testdata_24bars_modelC/test_888_front24.jpg) | ![888_front_24](testdata_24bars_modelC/test_888_front24.jpg) | 
+|890| ![890_front_24](testdata_24bars_modelC/test_890_front24.jpg) | ![890_front_24](testdata_24bars_modelC/test_890_front24.jpg) | 
+|893| ![893_front_24](testdata_24bars_modelC/test_893_front24.jpg) | ![893_front_24](testdata_24bars_modelC/test_893_front24.jpg) | 
+|894| ![894_front_24](testdata_24bars_modelC/test_894_front24.jpg) | ![894_front_24](testdata_24bars_modelC/test_894_front24.jpg) | 
+|896| ![896_front_24](testdata_24bars_modelC/test_896_front24.jpg) | ![896_front_24](testdata_24bars_modelC/test_896_front24.jpg) | 
+|899| ![899_front_24](testdata_24bars_modelC/test_899_front24.jpg) | ![899_front_24](testdata_24bars_modelC/test_899_front24.jpg) | 
+|900| ![900_front_24](testdata_24bars_modelC/test_900_front24.jpg) | ![900_front_24](testdata_24bars_modelC/test_900_front24.jpg) | 
+|901| ![901_front_24](testdata_24bars_modelC/test_901_front24.jpg) | ![901_front_24](testdata_24bars_modelC/test_901_front24.jpg) | 
+|904| ![904_front_24](testdata_24bars_modelC/test_904_front24.jpg) | ![904_front_24](testdata_24bars_modelC/test_904_front24.jpg) | 
+|908| ![908_front_24](testdata_24bars_modelC/test_908_front24.jpg) | ![908_front_24](testdata_24bars_modelC/test_908_front24.jpg) | 
+|909| ![909_front_24](testdata_24bars_modelC/test_909_front24.jpg) | ![909_front_24](testdata_24bars_modelC/test_909_front24.jpg) | 
 
 ### Markdown
 
