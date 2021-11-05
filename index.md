@@ -1,4 +1,4 @@
-## Theme Transformer: Symbolic Music Generation with Theme-Conditioned Transformer
+## Theme Transformer: <br/> Symbolic Music Generation with Theme-Conditioned Transformer
 ### Abstract
 <!-- Theme Transformer: Symbolic Music Generation with Theme-Conditioned Transformer -->
 
