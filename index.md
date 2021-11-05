@@ -1,10 +1,10 @@
 ## Theme Transformer: Symbolic Music Generation with Theme-Conditioned Transformer
-## Abstract
+### Abstract
 <!-- Theme Transformer: Symbolic Music Generation with Theme-Conditioned Transformer -->
 
 At the core of a Transformer model lies the so-called self-attention mechanism that supplies its autoregressive generation process with long-term memory. To exert control over the generation process of the Transformer, a popular and universal approach is to "prompt" the Transformer with a user-specified sequence and ask the model to generate a continuation. When using neural networks for music generation, the self-attention mechanism contributes to the consistency of the generated pieces in harmony and style. However, we argue in this paper that the self-attention mechanism alone is not sufficient for music applications because it cannot guarantee that the prompt would repeat itself or manifest in some way in the generated continuation. To improve this shortcoming, we propose an alternative conditioning approach, named theme-based conditioning, that explicitly coaches the Transformer to have multiple occurrences of the given condition, or a ``theme,'' in its generation. Technically, this is achieved by associating a theme with its occurrences in a training piece by contrastive representation learning and clustering, and by establishing a separate and dedicated memory network for the conditioning theme, so that the Transformer can self-attend to the long-term memory and cross-attend to the theme in parallel. We report on objective and subjective evaluations of variants of the proposed Theme Transformer and the conventional prompt-based baseline, showing that our best model can generate, to some extent, polyphonic pop piano music with repetition and plausible variations of the given condition. 
 
-## Demo
+### Demo
 
 | ID| Theme | Real Data | Baseline | Theme Transformer
 | -- | -------- | -------- | -------- | -------- |
@@ -20,7 +20,7 @@ At the core of a Transformer model lies the so-called self-attention mechanism t
 | 909 | <audio controls><source src="theme-transformer-audio/909_Theme.mp3" type="audio/mp3">Your browser does not support the audio element.</audio> | <audio controls><source src="theme-transformer-audio/909_Realdata.mp3" type="audio/mp3">Your browser does not support the audio element.</audio> | <audio controls><source src="theme-transformer-audio/909_Baseline.mp3" type="audio/mp3">Your browser does not support the audio element.</audio> | <audio controls><source src="theme-transformer-audio/909_ThemeTransformer.mp3" type="audio/mp3">Your browser does not support the audio element.</audio>|
 
 
-## Figures
+### Figures
 
 <table>
 <colgroup>
