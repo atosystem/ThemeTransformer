@@ -21,18 +21,18 @@ At the core of a Transformer model lies the so-called self-attention mechanism t
 ## Figures
 |#id| First 24 bars  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   | Melody Embedding Distance|
 | ------ | -------- | -------- | 
-|875| <img src="testdata_24bars_modelC/test_875_front24.jpg" width="100%"/> |     | 
-|888| <img src="testdata_24bars_modelC/test_888_front24.jpg" width="100%"/> |     | 
-|890| <img src="testdata_24bars_modelC/test_890_front24.jpg" width="100%"/> |     | 
-|893| <img src="testdata_24bars_modelC/test_893_front24.jpg" width="100%"/> |     | 
-|894| <img src="testdata_24bars_modelC/test_894_front24.jpg" width="100%"/> |     | 
-|896| <img src="testdata_24bars_modelC/test_896_front24.jpg" width="100%"/> |     | 
-|899| <img src="testdata_24bars_modelC/test_899_front24.jpg" width="100%"/> |     | 
-|900| <img src="testdata_24bars_modelC/test_900_front24.jpg" width="100%"/> |  | 
-|901| <img src="testdata_24bars_modelC/test_901_front24.jpg" width="100%"/> |     | 
-|904| <img src="testdata_24bars_modelC/test_904_front24.jpg" width="100%"/> |     | 
-|908| <img src="testdata_24bars_modelC/test_908_front24.jpg" width="100%"/> |     | 
-|909| <img src="testdata_24bars_modelC/test_909_front24.jpg" width="100%"/> |     | 
+|875| ![875_front_24](testdata_24bars_modelC/test_875_front24.jpg) |     | 
+|888| ![888_front_24](testdata_24bars_modelC/test_888_front24.jpg) |     | 
+|890| ![890_front_24](testdata_24bars_modelC/test_890_front24.jpg) |     | 
+|893| ![893_front_24](testdata_24bars_modelC/test_893_front24.jpg) |     | 
+|894| ![894_front_24](testdata_24bars_modelC/test_894_front24.jpg) |     | 
+|896| ![896_front_24](testdata_24bars_modelC/test_896_front24.jpg) |     | 
+|899| ![899_front_24](testdata_24bars_modelC/test_899_front24.jpg) |     | 
+|900| ![900_front_24](testdata_24bars_modelC/test_900_front24.jpg) |  | 
+|901| ![901_front_24](testdata_24bars_modelC/test_901_front24.jpg) |     | 
+|904| ![904_front_24](testdata_24bars_modelC/test_904_front24.jpg) |     | 
+|908| ![908_front_24](testdata_24bars_modelC/test_908_front24.jpg) |     | 
+|909| ![909_front_24](testdata_24bars_modelC/test_909_front24.jpg) |     | 
 
 ### Markdown
 
