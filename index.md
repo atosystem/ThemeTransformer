@@ -49,52 +49,52 @@ At the core of a Transformer model lies the so-called self-attention mechanism t
 <tr>
 <td markdown="span">**875**</td>
 <td markdown="span">![875_front_24](testdata_24bars_modelC/test_875_front24.jpg)</td>
-<td markdown="span">![875_front_24](testdata_24bars_modelC/test_875_front24.jpg)</td>
+<td markdown="span">![875_front_24](melEmb_dist/plot_875.jpg)</td>
 </tr>
 <tr>
 <td markdown="span">**888**</td>
 <td markdown="span">![888_front_24](testdata_24bars_modelC/test_888_front24.jpg)</td>
-<td markdown="span">![888_front_24](testdata_24bars_modelC/test_888_front24.jpg)</td>
+<td markdown="span">![888_front_24](melEmb_dist/plot_888.jpg)</td>
 </tr>
 <tr>
 <td markdown="span">**890**</td>
 <td markdown="span">![890_front_24](testdata_24bars_modelC/test_890_front24.jpg)</td>
-<td markdown="span">![890_front_24](testdata_24bars_modelC/test_890_front24.jpg)</td>
+<td markdown="span">![890_front_24](melEmb_dist/plot_890.jpg)</td>
 </tr>
 <tr>
 <td markdown="span">**893**</td>
 <td markdown="span">![893_front_24](testdata_24bars_modelC/test_893_front24.jpg)</td>
-<td markdown="span">![893_front_24](testdata_24bars_modelC/test_893_front24.jpg)</td>
+<td markdown="span">![893_front_24](melEmb_dist/plot_893.jpg)</td>
 </tr>
 <tr>
 <td markdown="span">**894**</td>
 <td markdown="span">![894_front_24](testdata_24bars_modelC/test_894_front24.jpg)</td>
-<td markdown="span">![894_front_24](testdata_24bars_modelC/test_894_front24.jpg)</td>
+<td markdown="span">![894_front_24](melEmb_dist/plot_894.jpg)</td>
 </tr>
 <tr>
 <td markdown="span">**896**</td>
 <td markdown="span">![896_front_24](testdata_24bars_modelC/test_896_front24.jpg)</td>
-<td markdown="span">![896_front_24](testdata_24bars_modelC/test_896_front24.jpg)</td>
+<td markdown="span">![896_front_24](melEmb_dist/plot_896.jpg)</td>
 </tr>
 <tr>
 <td markdown="span">**899**</td>
 <td markdown="span">![899_front_24](testdata_24bars_modelC/test_899_front24.jpg)</td>
-<td markdown="span">![899_front_24](testdata_24bars_modelC/test_899_front24.jpg)</td>
+<td markdown="span">![899_front_24](melEmb_dist/plot_899.jpg)</td>
 </tr>
 <tr>
 <td markdown="span">**900**</td>
 <td markdown="span">![900_front_24](testdata_24bars_modelC/test_900_front24.jpg)</td>
-<td markdown="span">![900_front_24](testdata_24bars_modelC/test_900_front24.jpg)</td>
+<td markdown="span">![900_front_24]melEmb_dist/plot__904.jpg)</td>
 </tr>
 <tr>
 <td markdown="span">**901**</td>
 <td markdown="span">![901_front_24](testdata_24bars_modelC/test_901_front24.jpg)</td>
-<td markdown="span">![901_front_24](testdata_24bars_modelC/test_901_front24.jpg)</td>
+<td markdown="span">![901_front_24](melEmb_dist/plot_901.jpg)</td>
 </tr>
 <tr>
 <td markdown="span">**904**</td>
 <td markdown="span">![904_front_24](testdata_24bars_modelC/test_904_front24.jpg)</td>
-<td markdown="span">![904_front_24](testdata_24bars_modelC/test_904_front24.jpg)</td>
+<td markdown="span">![904_front_24](melEmb_dist/plot_904.jpg)</td>
 </tr>
 <tr>
 <td markdown="span">**908**</td>
@@ -104,7 +104,7 @@ At the core of a Transformer model lies the so-called self-attention mechanism t
 <tr>
 <td markdown="span">**909**</td>
 <td markdown="span">![909_front_24](testdata_24bars_modelC/test_909_front24.jpg)</td>
-<td markdown="span">![909_front_24](testdata_24bars_modelC/test_909_front24.jpg)</td>
+<td markdown="span">![909_front_24](melEmb_dist/plot_909.jpg)</td>
 </tr>
 </tbody></table>
 
