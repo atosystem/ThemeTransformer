@@ -1,10 +1,11 @@
 title: Theme Transformer
 description: The official implementation of Theme Transformer
 show_downloads: false
+show_arxiv: true
 
 baseurl: "/ThemeTransformer" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
 url: "https://atosystem.github.io" # change this to the base hostname & protocol for your site
-
+url_arxiv: "https://arxiv.org/abs/2111.04093"
 
 google_analytics:
 

@@ -69,6 +69,9 @@
             <h2 class="project-tagline">{{ page-tagline }}</h2>
             {% if page.layout == 'home' and site.github.is_project_page %}
             <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+            {% if site.show_arxiv %}
+            <a href="{{ site.url_arxiv }}" class="btn">View on arxiv</a>
+            {% endif %}
             {% if site.show_downloads %}
             <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
             <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
