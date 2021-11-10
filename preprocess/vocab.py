@@ -155,7 +155,7 @@ class Vocab(object):
         return int(input_event.split("_")[1])
         
 
-    def midi2REMI(self,midi_path,trim_intro = True,trim_outro=True,include_bridge=False,extend_theme=False,bar_first=False,theme_annotations=True,verbose = False):
+    def midi2REMI(self,midi_path,quantize=True,trim_intro = True,trim_outro=True,include_bridge=False,extend_theme=False,bar_first=False,theme_annotations=True,verbose = False):
         """convert midi file to token representation
 
         Args:
@@ -173,6 +173,15 @@ class Vocab(object):
         """
         MIN_MEL_NOTES = 8
         midi_obj = mid_parser.MidiFile(midi_path)
+        # calculate the min step (in ticks) for REMI representation
+        min_step = midi_obj.ticks_per_beat * 4 / 16
+         
+        # quantize
+        if quantize:
+            for i in range(len(midi_obj.instruments)):
+                for n in range(len(midi_obj.instruments[i].notes)):
+                    midi_obj.instruments[i].notes[n].start = int(int(midi_obj.instruments[i].notes[n].start / min_step) * min_step)           
+                    midi_obj.instruments[i].notes[n].end = int(int(midi_obj.instruments[i].notes[n].end / min_step) * min_step)
 
         if theme_annotations:
             # select theme info track
