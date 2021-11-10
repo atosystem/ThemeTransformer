@@ -8,7 +8,7 @@
 
 This is the official implementation of Theme Transformer.
 
-*Checkout our demo website* : [Demo](https://atosystem.github.io/ThemeTransformer/) | [Arxiv](https://arxiv.org/abs/2111.04093)
+*Checkout our demo and paper* : [Demo](https://atosystem.github.io/ThemeTransformer/) | [arXiv](https://arxiv.org/abs/2111.04093)
 
 ## Environment: 
 * using python version 3.6.8
