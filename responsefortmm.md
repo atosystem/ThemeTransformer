@@ -2,7 +2,7 @@
 layout: page
 title: Response For TMM
 tagline: 
-permalink: /res_for_tmm.html
+permalink: /responsefortmm.html
 ref: responsefortmm
 order: 0
 ---
