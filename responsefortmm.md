@@ -7,6 +7,7 @@ ref: responsefortmm
 order: 0
 ---
 
+## Qualitative results for Theme Retrieval 
 The qualitative results for Theme Retrieval are shown in our webpages.
 
 
@@ -20,5 +21,9 @@ Midi ID       | Piano Roll |
 449    | [Link](tmm_files/449/449.html) | 
 464    | [Link](tmm_files/464/464.html) | 
 
+
+## Comparision for Different sampling temperature on inference phase
+
+File: [temperature_comparison.zip](tmm_files/temperatureSampling/differentTemp/differentTemp/temperature_comparison.zip)
 
 [Go to the Home Page]({{ '/' | absolute_url }})
