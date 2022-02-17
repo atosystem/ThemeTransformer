@@ -22,7 +22,7 @@ Midi ID       | Piano Roll |
 464    | [Link](tmm_files/464/464.html) | 
 
 
-## Comparision for Different sampling temperature on inference phase
+## Comparision for Different Sampling Temperature on Inference phase
 
 File: [temperature_comparison.zip](tmm_files/temperatureSampling/differentTemp/differentTemp/temperature_comparison.zip)
 
