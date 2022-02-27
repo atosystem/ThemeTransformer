@@ -12,14 +12,14 @@ The qualitative results for Theme Retrieval are shown in our webpages.
 
 
 
-Midi ID       | Piano Roll (.png) |
---------------|-------|
-065    | [Link](tmm_files/pianoRollPngs/065.png) | 
-284    | [Link](tmm_files/pianoRollPngs/284.png) | 
-310    | [Link](tmm_files/pianoRollPngs/310.png) | 
-422    | [Link](tmm_files/pianoRollPngs/422.png) | 
-449    | [Link](tmm_files/pianoRollPngs/449.png) | 
-464    | [Link](tmm_files/pianoRollPngs/464.png) | 
+Midi ID       | Piano Roll (.png) | Piano Roll (webpage) |
+--------------|-------|-------|
+065    | [Link](tmm_files/pianoRollPngs/065.png) | [Link](tmm_files/pianoRollHtml/065.html) | 
+284    | [Link](tmm_files/pianoRollPngs/284.png) | [Link](tmm_files/pianoRollHtml/284.html) | 
+310    | [Link](tmm_files/pianoRollPngs/310.png) | [Link](tmm_files/pianoRollHtml/310.html) | 
+422    | [Link](tmm_files/pianoRollPngs/422.png) | [Link](tmm_files/pianoRollHtml/422.html) | 
+449    | [Link](tmm_files/pianoRollPngs/449.png) | [Link](tmm_files/pianoRollHtml/449.html) | 
+464    | [Link](tmm_files/pianoRollPngs/464.png) | [Link](tmm_files/pianoRollHtml/464.html) | 
 
 
 ## Comparision for Different Sampling Temperature on Inference phase
