@@ -26,4 +26,8 @@ Midi ID       | Piano Roll (.png) | Piano Roll (webpage) |
 
 File: [temperature_comparison.zip](tmm_files/temperatureSampling/differentTemp/differentTemp/temperature_comparison.zip)
 
+## Comparision for Different Eps in DBSCAN
+
+File: [temperature_comparison.zip](tmm_files/temperatureSampling/differentTemp/differentTemp/eps_comparison.zip)
+
 [Go to the Home Page]({{ '/' | absolute_url }})
