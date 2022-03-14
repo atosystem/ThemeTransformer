@@ -11,6 +11,12 @@ This is the official implementation of Theme Transformer.
 *Checkout our demo and paper* : [Demo](https://atosystem.github.io/ThemeTransformer/) | [arXiv](https://arxiv.org/abs/2111.04093)
 
 ## Environment: 
+* Clone this Repo 
+
+    ```bash
+    git clone https://github.com/atosystem/ThemeTransformer.git -b main --single-branch
+    ```
+
 * using python version 3.6.8
 * install python dependencies: 
 
