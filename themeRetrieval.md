@@ -36,10 +36,12 @@ To allow readers to have an idea of the theme regions labeled by the three annot
 
 We report the F1-score, which is the harmonic mean of the “recall” and “precision” rates, of each theme retrieval method, using each time the labels from one of the annotators as the “ground truth.” Also, we report the Inter Annotator Agreement (IAA) among the three annotators by calculating the Cohen’s κ value for each song. We tabulate the results in Table 1 below.
 
+<img src="./themeRet_tb1.png" />
+<!-- ![](./themeRet_tb1.png) -->
 
-![](./themeRet_tb1.png)
+Table 1 shows that the IAA varies a lot across the six songs: song #065 reaches the highest IAA of 0.8390, while song #284 has a negative IAA value. This clearly shows that the theme labeling task for the songs in POP909 is fairly subjective. A closer look at the annotations of annotators ‘0’ and ‘1’ for song #284 (e.g., see the piano rolls we provided) reveals that the two annotators marked totally different parts of the song as the theme, leading to a negative κ value. In addition, for songs with multiple themes, a theme retrieval method may get zero F1 score if it retrieves a theme that is different from that of an annotator. This is the case for all the implemented methods. The bottom row shows that the proposed CL method obtains the highest average F1 0.378, validating its effectiveness as a theme retrieval method. However, two-sided paired t-test shows that the performance difference between CL and any other methods is not significant from a statistical point of view, except for the difference between CL and *‘CL w/o Not Dur.’* (p-value<0.05). Interestingly, the fact that *‘CL w/o Pitch Shift’* outperforms *‘CL w/o Not Dur.’* suggests that pitch shift on scale between our 2-bar segments aren’t common for songs in POP909. We further performed a qualitative analysis of the theme retrieval results, finding that the methods CL, CM and COSIATEC actually have their strengths and weaknesses and it is hard to say which method performs the best.
 
-Table 1 shows that the IAA varies a lot across the six songs: song #065 reaches the highest IAA of 0.8390, while song #284 has a negative IAA value. This clearly shows that the theme labeling task for the songs in POP909 is fairly subjective. A closer look at the annotations of annotators ‘0’ and ‘1’ for song #284 (e.g., see the piano rolls we provided) reveals that the two annotators marked totally different parts of the song as the theme, leading to a negative κ value. In addition, for songs with multiple themes, a theme retrieval method may get zero F1 score if it retrieves a theme that is different from that of an annotator. This is the case for all the implemented methods. The bottom row shows that the proposed CL method obtains the highest average F1 0.378, validating its effectiveness as a theme retrieval method. However, two-sided paired t-test shows that the performance difference between CL and any other methods is not significant from a statistical point of view, except for the difference between CL and ‘CL w/o Not Dur.’ (p-value<0.05). Interestingly, the fact that ‘CL w/o Pitch Shift’ outperforms ‘CL w/o Not Dur.’ suggests that pitch shift on scale between our 2-bar segments aren’t common for songs in POP909. We further performed a qualitative analysis of the theme retrieval results, finding that the methods CL, CM and COSIATEC actually have their strengths and weaknesses and it is hard to say which method performs the best. We list below the observed strengths (denoted by ‘+’) and weakness (‘−’) of the methods, along with some mixed findings (‘△’).
+We list below the observed strengths (denoted by ‘+’) and weakness (‘−’) of the methods, along with some mixed findings (‘△’).
 
 * **Contrastive Learning (CL)**
     
@@ -48,6 +50,7 @@ Table 1 shows that the IAA varies a lot across the six songs: song #065 reaches 
     (−) *Imperfect segmentation*: The results are confined to 2-bar segments due to the naıve melody segmentation method adopted in our implementation, which is questionable from a music perspective. Because of this limitation, CL sometimes produces weird results (e.g., for song #065, the pattern in the back is not in the same order as those in the front).
 
 * **Correlation Matrix (CM)**
+
     (+) *Easy to implement*
 
     (△) *Free of segmentation presumption*: There is no presumption for the boundaries of the retrieved pattern; the CM method simply finds the subsequence with the longest pattern that is less than 30 notes in total and that repeats at least twice in the song. As a result, it sometimes produces results with complete music meaning (perhaps a phrase), for example for song #499). However, CM may fail to catch a whole theme region (e.g., for the last theme region in song #065) for it requires the different theme regions of a song to look similar.
@@ -55,6 +58,7 @@ Table 1 shows that the IAA varies a lot across the six songs: song #065 reaches 
     (−) *One dimensional input*: Since CM takes only a one-dimensional string as input, it cannot take into account pitch- and grooving- related information at the same time.
 
 * **COSIATEC**
+
     (+) *Tolerance for skipping notes*: The advantage of SIA algorithm is that it is geometric based, so skipping notes are allowed without no hyperparameter tuning, giving it good ability to tolerate some variations within the middle notes in patterns.
     
     (△) *Free of segmentation presumption*: Like CM, it is free of the 2-bar segmentation assumption of our CL, so it is possible that TEC produces results with a more complete music meaning (e.g., for song #310), though this is not always the case.
