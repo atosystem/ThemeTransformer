@@ -110,6 +110,7 @@ Attention-based Transformer models have been increasingly employed for automatic
 </tbody></table>
 
 ## Qualitative results for Theme Retrieval 
+For more details about Theme Retrieval: [link](https://atosystem.github.io/ThemeTransformer/themeRetrieval.html)
 
 Midi ID       | Piano Roll (.png) | Piano Roll (webpage) | Midi Files |
 --------------|-------|-------|-------|
