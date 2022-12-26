@@ -19,15 +19,17 @@ OUTPUT_DATA_PKL = "../data_pkl/train_seg2_512.pkl"
 
 all_mids = sorted(glob.glob(MIDI_FILES))
 
-for _midiFile in all_midis:
+for _midiFile in all_mids:
     # convert midi files to token representation and save as .pkl file
-    output_pkl_fp = midifp.replace(".mid",".pkl")
-    remi_seq = myvocab.midi2REMI(midifp,include_bridge=False,bar_first=False,verbose=False)
+    output_pkl_fp = _midiFile.replace(".mid",".pkl")
+    remi_seq = myvocab.midi2REMI(_midiFile,include_bridge=False,bar_first=False,verbose=False)
     ret = myvocab.preprocessREMI(remi_seq,always_include=True,max_seq_len=512,verbose=True)    
     pickle.dump(ret, open(output_pkl_fp, 'wb'), protocol=pickle.HIGHEST_PROTOCOL)
 
 # collect all .pkl files and generate .pkl file for training/testing
 al_pkls = sorted(glob.glob(os.path.join(MIDI_FILES_PKLs_DIR,"*.pkl")))
+
+training_data = []
 
 for i,fn in enumerate(al_pkls):
     print(">>[{}/{}][train] Now processing {}".format(i+1,len(al_pkls),os.path.split(fn)[-1]))
